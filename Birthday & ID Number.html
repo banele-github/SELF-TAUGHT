@@ -1,0 +1,45 @@
+<html>
+
+<head>
+
+<title> Calculating Birthday </title>
+
+<script>
+
+function displayBirthday()
+{
+var userInput = document.getElementById("userBirthday").value;
+
+var userBirthdate = parseFloat(userInput);
+
+var birthdayCalcs;
+
+
+
+
+
+document.getElementById("displayBirthday").innerHTML = "Your Birthday: " + birthdayCalcs;
+}
+</script>
+
+
+</head>
+
+
+
+<body>
+
+<h2> Birthday Calculator </h2>
+
+<label for = "userBirthday"> </label>
+<input type = "text" id = "userBirthday">
+
+<br>
+<br>
+
+<button onclick = "displayBirthday()"> Get Birthday </button>
+<p id = "BirthdayOutput">
+
+
+</body>
+<html>
